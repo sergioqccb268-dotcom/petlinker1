@@ -1,1 +1,126 @@
-# petlinker1
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetLinker</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#136c96,#1483af);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    background:white;
+    width:350px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.header{
+    background:#ff914d;
+    color:white;
+    padding:20px;
+}
+
+.header h1{
+    margin:0;
+}
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-top:20px;
+    border:5px solid #ff914d;
+}
+
+.info{
+    padding:20px;
+    text-align:left;
+}
+
+.info p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+.botones{
+    padding:20px;
+}
+
+.btn{
+    display:block;
+    margin:10px auto;
+    padding:12px;
+    width:80%;
+    text-decoration:none;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.llamar{
+    background:#2196F3;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.footer{
+    background:#f5f5f5;
+    padding:10px;
+    color:#777;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="header">
+        <h1>🐾 PetLinker</h1>
+        <p>Mascota Encontrada</p>
+    </div>
+
+<img src="coco.jpg" class="foto" alt="Coco">
+
+
+    <div class="info">
+        <p><b>Nombre:</b> Coco</p>
+        <p><b>Raza:</b> Atrigado</p>
+        <p><b>Color:</b> Criollo</p>
+        <p><b>Edad:</b> 4 años</p>
+        <p><b>Dueño:</b> Sergio Quintero</p>
+        <p><b>Dirección Aproximada:</b> Portal de Usme</p>
+         <p><b>Medicamentos Necesarios:</b> Pretnisolona (Media pastilla diaria)</p>
+    </div>
+    <div class="botones">
+        <a href="tel:3001234567" class="btn llamar">📞 Llamar</a>
+
+        <a href="https://wa.me/573001234567" class="btn whatsapp">
+            💬 WhatsApp
+        </a>
+    </div>
+
+    <div class="footer">
+        PetLinker S.A.S<br>
+        Mantenemos seguras a las mascotas y tranquilas a las familias.
+    </div>
+
+</div>
+
+</body>
+</html>
